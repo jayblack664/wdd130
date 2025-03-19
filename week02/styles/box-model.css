@@ -1,0 +1,55 @@
+callout class {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+image class {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+blockquote class {
+  padding: 20px;
+  border-left: 5px solid #eee;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+cite class {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+}
+aside class {
+  float: right;
+  width: 30%;
+  margin-left: 20px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #000;
+}
+main  {max-width: 840px;
+}
+aside {
+    width: 200rem;
+    margin:1rem;
+    border:1pix solid rgb(0 0 0/0.2);/* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+}
+aside img {
+  width: 200px;
+  height: auto; 
+}
+main img {
+  width: 150%;
+  height: auto;
+}
+p {padding: 0;}
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
